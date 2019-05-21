@@ -1,4 +1,4 @@
-# この viminfo ファイルは Vim 8.0 によって生成されましたを追加.
+# この viminfo ファイルは Vim 8.0 によって生成されました.
 # 変更する際には十分注意してください!
 
 # Viminfo version
@@ -9,8 +9,16 @@
 
 
 # hlsearch on (H) or off (h):
-~hを追加を追加
+~h
 # コマンドライン 項目の履歴 (新しいものから古いものへ):
+:q!
+|2,0,1558427491,,"q!"
+:q
+|2,0,1558427462,,"q"
+:help jedi
+|2,0,1558427453,,"help jedi"
+:wq
+|2,0,1558427408,,"wq"
 
 # 検索文字列 項目の履歴 (新しいものから古いものへ):
 
@@ -23,14 +31,262 @@
 # レジスタ:
 
 # ファイルマーク:
-'0  1  0  ~/dotfiles/setup.sh
-|4,48,1,0,1558426772,"~/dotfiles/setup.sh"
+'0  1  0  ~/test.py
+|4,48,1,0,1558427491,"~/test.py"
+'1  1  0  ~/.vim/dein/.cache/.vimrc/.dein/doc/jedi-vim.txt
+|4,49,1,0,1558427444,"~/.vim/dein/.cache/.vimrc/.dein/doc/jedi-vim.txt"
+'2  1  0  ~/.vim/dein/.cache/.vimrc/.dein/doc/jedi-vim.txt
+|4,50,1,0,1558427444,"~/.vim/dein/.cache/.vimrc/.dein/doc/jedi-vim.txt"
+'3  40  35  ~/.vimrc
+|4,51,40,35,1558427408,"~/.vimrc"
+'4  1  0  ~/test.py
+|4,52,1,0,1558427339,"~/test.py"
+'5  40  41  ~/.vimrc
+|4,53,40,41,1558427254,"~/.vimrc"
+'6  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,54,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+'7  5  26  ~/.vim/userconfig/plugin.toml
+|4,55,5,26,1558427177,"~/.vim/userconfig/plugin.toml"
+'8  1  0  ~/dotfiles/setup.sh
+|4,56,1,0,1558426772,"~/dotfiles/setup.sh"
 
 # ジャンプリスト (新しいものが先):
--'  1  0  ~/dotfiles/setup.sh
-|4,39,1,0,1558426772,"~/dotfiles/setup.sh"
+-'  1  0  ~/test.py
+|4,39,1,0,1558427491,"~/test.py"
+-'  1  0  ~/.vim/dein/.cache/.vimrc/.dein/doc/jedi-vim.txt
+|4,39,1,0,1558427444,"~/.vim/dein/.cache/.vimrc/.dein/doc/jedi-vim.txt"
+-'  1  0  ~/.vim/dein/.cache/.vimrc/.dein/doc/jedi-vim.txt
+|4,39,1,0,1558427444,"~/.vim/dein/.cache/.vimrc/.dein/doc/jedi-vim.txt"
+-'  1  0  ~/.vim/dein/.cache/.vimrc/.dein/doc/jedi-vim.txt
+|4,39,1,0,1558427444,"~/.vim/dein/.cache/.vimrc/.dein/doc/jedi-vim.txt"
+-'  1  0  ~/.vim/dein/.cache/.vimrc/.dein/doc/jedi-vim.txt
+|4,39,1,0,1558427444,"~/.vim/dein/.cache/.vimrc/.dein/doc/jedi-vim.txt"
+-'  40  35  ~/.vimrc
+|4,39,40,35,1558427408,"~/.vimrc"
+-'  40  35  ~/.vimrc
+|4,39,40,35,1558427408,"~/.vimrc"
+-'  40  35  ~/.vimrc
+|4,39,40,35,1558427408,"~/.vimrc"
+-'  40  35  ~/.vimrc
+|4,39,40,35,1558427408,"~/.vimrc"
+-'  40  35  ~/.vimrc
+|4,39,40,35,1558427408,"~/.vimrc"
+-'  40  35  ~/.vimrc
+|4,39,40,35,1558427408,"~/.vimrc"
+-'  40  35  ~/.vimrc
+|4,39,40,35,1558427408,"~/.vimrc"
+-'  40  35  ~/.vimrc
+|4,39,40,35,1558427408,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1558427378,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1558427378,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1558427378,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1558427378,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1558427378,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1558427378,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1558427378,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1558427378,"~/.vimrc"
+-'  1  0  ~/test.py
+|4,39,1,0,1558427339,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1558427339,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1558427339,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1558427339,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1558427339,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1558427339,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1558427339,"~/test.py"
+-'  1  0  ~/test.py
+|4,39,1,0,1558427339,"~/test.py"
+-'  40  41  ~/.vimrc
+|4,39,40,41,1558427254,"~/.vimrc"
+-'  40  41  ~/.vimrc
+|4,39,40,41,1558427254,"~/.vimrc"
+-'  40  41  ~/.vimrc
+|4,39,40,41,1558427254,"~/.vimrc"
+-'  40  41  ~/.vimrc
+|4,39,40,41,1558427254,"~/.vimrc"
+-'  40  41  ~/.vimrc
+|4,39,40,41,1558427254,"~/.vimrc"
+-'  40  41  ~/.vimrc
+|4,39,40,41,1558427254,"~/.vimrc"
+-'  40  41  ~/.vimrc
+|4,39,40,41,1558427254,"~/.vimrc"
+-'  40  41  ~/.vimrc
+|4,39,40,41,1558427254,"~/.vimrc"
+-'  40  41  ~/.vimrc
+|4,39,40,41,1558427254,"~/.vimrc"
+-'  40  41  ~/.vimrc
+|4,39,40,41,1558427254,"~/.vimrc"
+-'  40  41  ~/.vimrc
+|4,39,40,41,1558427254,"~/.vimrc"
+-'  40  41  ~/.vimrc
+|4,39,40,41,1558427254,"~/.vimrc"
+-'  40  41  ~/.vimrc
+|4,39,40,41,1558427254,"~/.vimrc"
+-'  40  41  ~/.vimrc
+|4,39,40,41,1558427254,"~/.vimrc"
+-'  40  41  ~/.vimrc
+|4,39,40,41,1558427254,"~/.vimrc"
+-'  40  41  ~/.vimrc
+|4,39,40,41,1558427254,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1558427238,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1558427238,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1558427238,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1558427238,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1558427238,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1558427238,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1558427238,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1558427238,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1558427238,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1558427238,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1558427238,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1558427238,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1558427238,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1558427238,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1558427238,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1558427238,"~/.vimrc"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
+-'  10  17  ~/.vim/userconfig/plugin_lazy.toml
+|4,39,10,17,1558427200,"~/.vim/userconfig/plugin_lazy.toml"
 
 # ファイル内マークの履歴 (新しいものから古いもの):
+
+> ~/test.py
+	*	1558427488	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> ~/.vim/dein/.cache/.vimrc/.dein/doc/jedi-vim.txt
+	*	1558427457	0
+	"	21	0
+
+> ~/.vimrc
+	*	1558427407	0
+	"	40	35
+	^	40	36
+	.	19	35
+	+	40	41
+	+	6	31
+	+	19	35
+
+> ~/.vim/userconfig/plugin_lazy.toml
+	*	1558427199	0
+	"	10	17
+	^	10	18
+	.	10	17
+	+	10	17
+
+> ~/.vim/userconfig/plugin.toml
+	*	1558427176	0
+	"	5	26
+	^	5	27
+	.	5	26
+	+	5	26
 
 > ~/dotfiles/setup.sh
 	"	1	0
