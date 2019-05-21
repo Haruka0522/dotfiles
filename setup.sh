@@ -1,9 +1,9 @@
- #!/bin/bash
-
-  DOT_FILES=(.bashrc .bash_profile …)
-
- for file in ${DOT_FILES[@]}
- do
-     ln -s $HOME/dotfiles/$file $HOME/$file
- done
-
+#!/bin/sh
+cd $(dirname $0)
+for dotfile in .?*
+do
+    if [ $dotfile != '..' ] && [ $dotfile != '.git' ]
+    then
+        ln -Fis "$PWD/$dotfile" $HOME
+    fi
+done
