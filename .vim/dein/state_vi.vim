@@ -1,4 +1,4 @@
-if g:dein#_cache_version !=# 100 || g:dein#_init_runtimepath !=# '/home/haruka/.vim/dein/repos/github.com/Shougo/dein.vim/,/home/haruka/.vim,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim80,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,/home/haruka/.vim/after' | throw 'Cache loading error' | endif
+if g:dein#_cache_version !=# 150 || g:dein#_init_runtimepath !=# '/home/haruka/.vim/dein/repos/github.com/Shougo/dein.vim/,/home/haruka/.vim,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim80,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,/home/haruka/.vim/after' | throw 'Cache loading error' | endif
 let [plugins, ftplugin] = dein#load_cache_raw(['/home/haruka/.vimrc', '/home/haruka/.vim/userconfig/plugin.toml', '/home/haruka/.vim/userconfig/plugin_lazy.toml'])
 if empty(plugins) | throw 'Cache loading error' | endif
 let g:dein#_plugins = plugins

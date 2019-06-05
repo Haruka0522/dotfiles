@@ -1,2 +1,2 @@
-100
-['Shougo/dein.vim', 'Shougo/neomru.vim', 'Shougo/unite.vim', 'Shougo/vimproc.vim', 'davidhalter/jedi-vim']
+{'repo': v:val.repo, 'rev': get(v:val, 'rev', '')}
+[{'rev': '', 'repo': 'Shougo/dein.vim'}, {'rev': '', 'repo': 'Shougo/neomru.vim'}, {'rev': '', 'repo': 'Shougo/unite.vim'}, {'rev': '', 'repo': 'Shougo/vimproc.vim'}, {'rev': '', 'repo': 'davidhalter/jedi-vim'}]
