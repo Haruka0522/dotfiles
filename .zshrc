@@ -40,4 +40,4 @@ setopt EXTENDED_HISTORY
 #
 #------------------------------------
 #カレントディレクトリの表示等
-PROMPT="%F{white}%m@%n:%f%F{green}%~%# %f"
+PROMPT="%F{green}%m@%n:%f%F{green}%~%# %f"
