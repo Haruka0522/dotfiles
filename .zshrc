@@ -39,4 +39,5 @@ setopt EXTENDED_HISTORY
 #プロンプト
 #
 #------------------------------------
-PROMPT="%m@%n:%~%# "
+#カレントディレクトリの表示等
+PROMPT="%F{white}%m@%n:%f%F{green}%~%# %f"
