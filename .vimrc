@@ -42,3 +42,6 @@ endif
 
 "F5キーでPython3を実行できるようにする
 nmap <F5> :!python3 %
+
+"NERDTreeを自動で実行する
+autocmd vimenter * NERDTree
