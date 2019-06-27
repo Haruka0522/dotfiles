@@ -38,3 +38,7 @@ if dein#check_install()
   call dein#install()
 endif
 "End dein Scripts-------------------------
+
+
+"F5キーでPython3を実行できるようにする
+nmap <F5> :!python3 %
