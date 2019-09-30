@@ -46,3 +46,6 @@ nmap <F5> :!python3 %
 "NERDTreeを自動で実行する
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
+"Ctrl+eでNERDTreeを表示
+nnoremap <silent><C-e> :NERDTreeToggle<CR>
