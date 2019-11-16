@@ -3205,6 +3205,68 @@
           ]
         },
         {
+          "name": "Arduino SAMD Boards (32-bits ARM Cortex-M0+)",
+          "architecture": "samd",
+          "version": "1.8.4",
+          "category": "Arduino",
+          "help": {
+            "online": "http://www.arduino.cc/en/Reference/HomePage"
+          },
+          "url": "http://downloads.arduino.cc/cores/samd-1.8.4.tar.bz2",
+          "archiveFileName": "samd-1.8.4.tar.bz2",
+          "checksum": "SHA-256:2b32e54542211360ba6fb133e7d507dedd7a8ea8583f6fa714605a1f003acb27",
+          "size": "2905449",
+          "boards": [
+            { "name": "Arduino MKR WiFi 1010" },
+            { "name": "Arduino Zero" },
+            { "name": "Arduino MKR1000" },
+            { "name": "Arduino MKRZERO" },
+            { "name": "Arduino MKR FOX 1200" },
+            { "name": "Arduino MKR WAN 1300" },
+            { "name": "Arduino MKR WAN 1310" },
+            { "name": "Arduino MKR GSM 1400" },
+            { "name": "Arduino MKR NB 1500" },
+            { "name": "Arduino MKR Vidor 4000" },
+            { "name": "Arduino Nano 33 IoT" },
+            { "name": "Arduino M0 Pro" },
+            { "name": "Arduino M0" },
+            { "name": "Arduino Tian" },
+            { "name": "Adafruit Circuit Playground Express" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0-arduino3"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.1"
+            }
+          ]
+        },
+        {
           "name": "Arduino nRF528x Boards (Mbed OS)",
           "architecture": "mbed",
           "version": "1.1.0",
@@ -5507,6 +5569,54 @@
               "archiveFileName": "OpenOCD-0.10.0-nrf52-arm-static.tar.gz",
               "size": "1526863",
               "checksum": "SHA-256:b5172422077f87ff05b76ff40034979678c9c640e9d08cee15ce55e40dd8c929"
+            }
+          ]
+        },
+        {
+          "name": "fwupdater",
+          "version": "0.0.6",
+          "systems": [
+            {
+              "host": "i686-linux-gnu",
+              "url": "http://downloads.arduino.cc/tools/FirmwareUpdater-0.0.6-linux32.tar.bz2",
+              "archiveFileName": "FirmwareUpdater-0.0.6-linux32.tar.bz2",
+              "checksum": "SHA-256:8c4e562a8e6fa3d916c4bf6bb24d7eec0df013d8cc45dff187e5c63086a92c11",
+              "size": "7334059"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/tools/FirmwareUpdater-0.0.6-linux64.tar.bz2",
+              "archiveFileName": "FirmwareUpdater-0.0.6-linux64.tar.bz2",
+              "checksum": "SHA-256:0e9132518acfe66e5a4e17ba4b6dd0c89dbd90cc0d9b4a54e007ac24d51fd36a",
+              "size": "7383853"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "http://downloads.arduino.cc/tools/FirmwareUpdater-0.0.6-windows.zip",
+              "archiveFileName": "FirmwareUpdater-0.0.6-windows.zip",
+              "checksum": "SHA-256:33a92661f43b8d025ca5f57be1116537ed153703067d9c86297619d58988feff",
+              "size": "7580663"
+            },
+            {
+              "host": "i386-apple-darwin11",
+              "url": "http://downloads.arduino.cc/tools/FirmwareUpdater-0.0.6-osx.tar.bz2",
+              "archiveFileName": "FirmwareUpdater-0.0.6-osx.tar.bz2",
+              "checksum": "SHA-256:3584d7581ff2469bdfde9de6f57d87b2a0370de5c902e9df687b7322a5405018",
+              "size": "7368819"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "http://downloads.arduino.cc/tools/FirmwareUpdater-0.0.6-linuxarm.tar.bz2",
+              "archiveFileName": "FirmwareUpdater-0.0.6-linuxarm.tar.bz2",
+              "checksum": "SHA-256:276f027e552eb620064b09591c7a7c79927c93c017428436c81f71bad666803c",
+              "size": "7180391"
+            },
+            {
+              "host": "aarch64-linux-gnu",
+              "url": "http://downloads.arduino.cc/tools/FirmwareUpdater-0.0.6-linuxarm64.tar.bz2",
+              "archiveFileName": "FirmwareUpdater-0.0.6-linuxarm64.tar.bz2",
+              "checksum": "SHA-256:d6a2e72b4869c031b434380da6e6a8a4a6269f8ee6312a3d23e85ea133a37ae9",
+              "size": "7149332"
             }
           ]
         },
