@@ -50,3 +50,8 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 "Ctrl+eでNERDTreeを表示
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
+
+"自動で同じカッコを入力
+imap { {}<LEFT>
+imap [ []<LEFT>
+imap ( ()<LEFT>
