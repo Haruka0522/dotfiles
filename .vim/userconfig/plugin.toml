@@ -20,3 +20,5 @@ hook_add = '''
 [[plugins]]
 repo = 'bronson/vim-trailing-whitespace'
 
+[[plugins]]
+repo = 'Shougo/neocomplete.vim'
