@@ -41,8 +41,30 @@ endif
 
 
 
-"F5キーでPython3を実行できるようにする
-nmap <F5> :!python3 %
+"F5キーでPython3とCを実行できるようにする
+command! Run call s:Run()
+nmap <F5> :Run<CR>
+function! s:Run()
+  let e = expand("%:e")
+  if e == "c"
+    :Gcc
+  endif
+  if e == "py"
+    :Python
+  endif
+endfunction
+
+command! Python call s:Python()
+function! s:Python()
+  :!python %
+endfunction
+
+command! Gcc call s:Gcc()
+function! s:Gcc()
+  :!gcc % -o %:r
+  :!./%:r
+endfunction
+
 
 "NERDTreeを自動で実行する
 autocmd StdinReadPre * let s:std_in=1
