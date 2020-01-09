@@ -73,3 +73,5 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 "Ctrl+eでNERDTreeを表示
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
 
+"行番号
+set number
