@@ -77,6 +77,9 @@ nnoremap <silent><C-e> :NERDTreeToggle<CR>
 set number
 "autocmd ColorScheme * highlight Comment ctermfg=250 ctermbg=240
 
+"行を強調表示
+set cursorline
+
 "カラースキーム
 set background=dark
 colorscheme lucius
