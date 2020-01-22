@@ -12,3 +12,11 @@ on_ft = ['python']
 [[plugins]]
 repo = 'sudar/vim-arduino-syntax'
 on_ft = ['arduino']
+
+[[plugins]]
+repo = 'nvie/vim-flake8'
+on_ft = ['python']
+
+[[plugins]]
+repo = 'tell-k/vim-autopep8'
+on_ft = ['python']
