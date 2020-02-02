@@ -41,3 +41,6 @@ setopt EXTENDED_HISTORY
 #------------------------------------
 #カレントディレクトリの表示等
 PROMPT="%F{green}%m@%n:%f%F{green}%~%# %f"
+
+#sudoしたときの表示を変更
+export SUDO_PROMPT="[sudo] さっさとパスワードを教えなさいよ！"
