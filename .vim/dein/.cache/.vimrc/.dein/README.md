@@ -1,4 +1,4 @@
-# vim-airline-themes [![Build Status](https://travis-ci.org/vim-airline/vim-airline-themes.svg?branch=master)](https://travis-ci.org/vim-airline/vim-airline-themes)
+# vim-airline-themes [![Build Status](https://travis-ci.org/vim-airline/vim-airline-themes.svg?branch=master)](https://travis-ci.org/vim-airline/vim-airline-themes) [![reviewdog](https://github.com/vim-airline/vim-airline-themes/workflows/reviewdog/badge.svg?branch=master)](https://github.com/vim-airline/vim-airline-themes/actions?query=workflow%3Areviewdog+event%3Apush+branch%3Amaster)
 
 This is the official theme repository for [vim-airline][11]
 
@@ -45,7 +45,7 @@ If you are interested in becoming the official maintainer of this project, pleas
 
 # License
 
-MIT License. Copyright (c) 2013-2017 Bailey Ling & Contributors.
+MIT License. Copyright (c) 2013-2020 Bailey Ling & Contributors.
 
 
 [1]: https://github.com/bling

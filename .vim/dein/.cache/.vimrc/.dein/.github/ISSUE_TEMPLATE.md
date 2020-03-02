@@ -1,31 +1,24 @@
-# Problems summary
+#### environment
 
+- vim: ????
+- vim-airline: ????
+- colorscheme: ????
+- OS: ????
+- Have you reproduced with a minimal vimrc: ???
+- What is your airline configuration: ???
+if you are using terminal:
+- terminal: ????
+- $TERM variable: ???
+- color configuration (:set t_Co?): 
+if you are using Neovim:
+- does it happen in Vim: ???
 
-## Expected
+#### actual behavior
 
+????
 
-## Environment Information
- * OS:
- * Vim version:
+#### expected behavior
 
+????
 
-## Provide a minimal .vimrc with less than 50 lines (Required!)
-
-```vim
-" Your minimal .vimrc
-set runtimepath+=~/path/to/neocomplete.nvim/
-let g:neocomplete#enable_at_startup = 1
-```
-
-
-## The reproduce ways from Vim starting (Required!)
-
- 1. foo
- 2. bar
- 3. baz
-
-
-## Screen shot (if possible)
-
-
-## Upload the log messages by `:redir` and `:message`
+#### screen shot (if possible)
