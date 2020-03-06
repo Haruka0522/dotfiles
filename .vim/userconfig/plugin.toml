@@ -73,3 +73,6 @@ repo = 'Shougo/neocomplete.vim'
 
 [[plugins]]
 repo = 'jonathanfilip/vim-lucius'
+
+[[plugins]]
+repo = 'MetalPhaeton/easybracket-vim'
