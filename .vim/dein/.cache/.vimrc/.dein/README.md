@@ -1,61 +1,57 @@
-# vim-airline-themes [![Build Status](https://travis-ci.org/vim-airline/vim-airline-themes.svg?branch=master)](https://travis-ci.org/vim-airline/vim-airline-themes) [![reviewdog](https://github.com/vim-airline/vim-airline-themes/workflows/reviewdog/badge.svg?branch=master)](https://github.com/vim-airline/vim-airline-themes/actions?query=workflow%3Areviewdog+event%3Apush+branch%3Amaster)
+easybracket-vim - Vimの括弧補完プラグイン
+=========================================
 
-This is the official theme repository for [vim-airline][11]
+easybracket-vimのライセンス
+---------------------------
 
-# Installation
+```
+The MIT License (MIT)
 
-This plugin follows the standard runtime path structure, and as such it can be installed with a variety of plugin managers:
-
-| Plugin Manager | Install with... |
-| -------------  | ------------- |
-| [Pathogen][4]  | `git clone https://github.com/vim-airline/vim-airline-themes ~/.vim/bundle/vim-airline-themes`<br/>Remember to run `:Helptags` to generate help tags |
-| [NeoBundle][5] | `NeoBundle 'vim-airline/vim-airline-themes'` |
-| [Vundle][6]    | `Plugin 'vim-airline/vim-airline-themes'` |
-| [Plug][7]      | `Plug 'vim-airline/vim-airline-themes'` |
-| [VAM][8]       | `call vam#ActivateAddons([ 'vim-airline-themes' ])` |
-| [Dein][9]      | `call dein#add('vim-airline/vim-airline-themes')` |
-| [minpac][10]   | `call minpac#add('vim-airline/vim-airline-themes')` |
-| manual         | copy all of the files into your `~/.vim` directory |
-
-# Using a Theme
-
-Once installed, use  `:AirlineTheme <theme>` to set the theme, e.g. `:AirlineTheme simple`
-
-To set in .vimrc, use `let g:airline_theme='<theme>'`, e.g. `let g:airline_theme='simple'`
-
-**Note:** The command `:AirlineTheme` is only available, if you have also cloned and installed the main [vim-airline][11] repository.
-
-# Contribution Guidelines
-
-## New themes
-
-* Pull requests for new themes are welcome.  Please be sure to include a screenshot.  You can paste an image into issue [#1](https://github.com/vim-airline/vim-airline-themes/issues/1), and then editing the post to reveal the uploaded image URL.  Please don't forgot to update the documentation.
-
-## Modifications to existing themes
-
-* Themes are subjective, so if you are going to make modifications to an existing theme, please expose a configurable variable to allow users to choose how the theme will react.
-
-# Screenshots
-
-Screenshots are in the process of being migrated here.  In the meantime you can find screenshots in the existing repository's [Wiki](https://github.com/vim-airline/vim-airline/wiki/Screenshots).
-
-# Maintenance
-
-If you are interested in becoming the official maintainer of this project, please contact [**@bling**][1], [**@chrisbra**][2], or [**@mhartington**][3].
-
-# License
-
-MIT License. Copyright (c) 2013-2020 Bailey Ling & Contributors.
+Copyright (c) 2014 Ishibashi Hironori
 
 
-[1]: https://github.com/bling
-[2]: https://github.com/chrisbra
-[3]: https://github.com/mhartington
-[4]: https://github.com/tpope/vim-pathogen
-[5]: https://github.com/Shougo/neobundle.vim
-[6]: https://github.com/VundleVim/Vundle.vim
-[7]: https://github.com/junegunn/vim-plug
-[8]: https://github.com/MarcWeber/vim-addon-manager
-[9]: https://github.com/Shougo/dein.vim
-[10]: https://github.com/k-takata/minpac/
-[11]: https://github.com/vim-airline/vim-airline
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom
+the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+```
+
+
+
+特徴
+----
+
+* 開き括弧を入力すると自動で閉じ括弧が補完される。
+* 開き括弧を削除すると、自動補完された閉じ括弧も同時に削除される。
+* 閉じ括弧が自動補完された後に、手動で閉じ括弧を入力すると、
+  自動補完された閉じ括弧をスルーする。
+* ビジュアルモードを選択した範囲を括弧でくくる。
+
+
+
+使い方
+------
+
+以下はビジュアルモードで選択範囲を括弧でくくる方法。
+
+| キー入力 (ビジュアルモード) | 意味                     |
+|-----------------------------|--------------------------|
+| `<Leader>(`                 | 選択範囲を`()`でくくる。 |
+| `<Leader>{`                 | 選択範囲を`{}`でくくる。 |
+| `<Leader>[`                 | 選択範囲を`[]`でくくる。 |
+| `<Leader>a`                 | 選択範囲を`''`でくくる。 |
+| `<Leader>q`                 | 選択範囲を`""`でくくる。 |
+
