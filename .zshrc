@@ -57,3 +57,7 @@ PROMPT="%F{green}%m@%n:%f%F{green}%~%# %f"
 
 #sudoしたときの表示を変更
 export SUDO_PROMPT="[sudo] さっさとパスワードを教えなさいよ！"
+
+#pureプロンプトの適用
+autoload -U promptinit; promptinit
+prompt pure
