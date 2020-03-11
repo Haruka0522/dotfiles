@@ -61,3 +61,10 @@ export SUDO_PROMPT="[sudo] さっさとパスワードを教えなさいよ！"
 #pureプロンプトの適用
 autoload -U promptinit; promptinit
 prompt pure
+
+#------------------------------------
+#
+#エイリアス
+#
+#------------------------------------
+alias ls='ls --color=auto'
