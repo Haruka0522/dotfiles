@@ -79,3 +79,6 @@ repo = 'MetalPhaeton/easybracket-vim'
 
 [[plugins]]
 repo = 'Shougo/neocomplete.vim'
+
+[[plugins]]
+repo = 'nathanaelkane/vim-indent-guides'
