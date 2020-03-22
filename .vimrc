@@ -109,5 +109,3 @@ function! Autopep8()
 endfunction
 autocmd FileType python nnoremap <S-f> :call Autopep8()<CR>
 
-"インデント
-let g:indent_guides_enable_on_vim_startup = 1
