@@ -109,3 +109,4 @@ function! Autopep8()
 endfunction
 autocmd FileType python nnoremap <S-f> :call Autopep8()<CR>
 
+let g:indentLine_char_list = ['|', '¦', '┆', '┊']
