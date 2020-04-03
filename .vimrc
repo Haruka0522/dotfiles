@@ -84,6 +84,9 @@ set cursorline
 set background=dark
 colorscheme lucius
 
+"クリップボード連携
+set clipboard=unnamedplus
+
 "autopep8をF7で実行
 function! Preserve(command)
     " Save the last search.
