@@ -82,7 +82,7 @@ set cursorline
 
 "カラースキーム
 set background=dark
-colorscheme lucius
+colorscheme molokai
 
 "クリップボード連携
 set clipboard=unnamedplus

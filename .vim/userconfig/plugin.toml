@@ -86,3 +86,6 @@ repo = 'Shougo/neocomplete.vim'
 
 [[plugins]]
 repo = 'Yggdroot/indentLine'
+
+[[plugins]]
+repo = 'tomasr/molokai'
