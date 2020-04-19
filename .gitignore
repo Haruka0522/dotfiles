@@ -1,4 +1,5 @@
 /.vim/dein/cache_vi
 /.vim/dein/state_vi.vim
 /.vim/dein/repos/github.com/*
-
+/.vim/dein/.cache/*
+/.vim/cache_vim
