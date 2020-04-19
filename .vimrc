@@ -39,7 +39,20 @@ if dein#check_install()
 endif
 "End dein Scripts-------------------------
 
-
+"pyenvとvimのパスの自動設定
+function! IncludePath(path)
+  " define delimiter depends on platform
+  if has('win16') || has('win32') || has('win64')
+    let delimiter = ";"
+  else
+    let delimiter = ":"
+  endif
+  let pathlist = split($PATH, delimiter)
+  if isdirectory(a:path) && index(pathlist, a:path) == -1
+    let $PATH=a:path.delimiter.$PATH
+  endif
+endfunction
+call IncludePath(expand("~/.pyenv/shims"))
 
 "F5キーでPython3とCを実行できるようにする
 command! Run call s:Run()

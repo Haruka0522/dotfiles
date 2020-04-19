@@ -10,6 +10,11 @@ repo = 'davidhalter/jedi-vim'
 on_ft = ['python']
 
 [[plugins]]
+repo = 'lambdalisue/vim-pyenv'
+on_ft = ['python']
+depends = ['jedi-vim']
+
+[[plugins]]
 repo = 'sudar/vim-arduino-syntax'
 on_ft = ['arduino']
 
