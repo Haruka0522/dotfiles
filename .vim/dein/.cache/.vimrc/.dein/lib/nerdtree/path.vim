@@ -199,7 +199,7 @@ function! s:Path.copy(dest)
         let cmd_prefix = (self.isDirectory ? g:NERDTreeCopyDirCmd : g:NERDTreeCopyFileCmd)
     endif
 
-    let cmd = cmd_prefix . ' ' . shellescape(self.str()) . ' ' . shellescape(a:dest)
+    let cmd = cmd_prefix . ' ' . escape(self.str(), self._escChars()) . ' ' . escape(a:dest, self._escChars())
     let success = system(cmd)
     if v:shell_error !=# 0
         throw "NERDTree.CopyError: Could not copy '". self.str() ."' to: '" . a:dest . "'"
@@ -295,10 +295,7 @@ endfunction
 
 " FUNCTION: Path.edit() {{{1
 function! s:Path.edit()
-    let l:bufname = self.str({'format': 'Edit'})
-    if bufname('%') !=# l:bufname
-        exec 'edit ' . l:bufname
-    endif
+    exec 'edit ' . self.str({'format': 'Edit'})
 endfunction
 
 " FUNCTION: Path.extractDriveLetter(fullpath) {{{1

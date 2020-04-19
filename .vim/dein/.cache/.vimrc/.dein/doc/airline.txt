@@ -568,9 +568,6 @@ vim-capslock <https://github.com/tpope/vim-capslock>
 * enable/disable vim-capslock integration >
   let g:airline#extensions#capslock#enabled = 1
 
-* change vim-capslock symbol >
-  let g:airline#extensions#capslock#symbol = 'CAPS' (default)
-
 -------------------------------------                    *airline-coc*
 coc <https://github.com/neoclide/coc.nvim>
 
@@ -738,7 +735,6 @@ vim-gitgutter <https://github.com/airblade/vim-gitgutter>
 vim-signify <https://github.com/mhinz/vim-signify>
 changesPlugin <https://github.com/chrisbra/changesPlugin>
 quickfixsigns <https://github.com/tomtom/quickfixsigns_vim>
-coc-git <https://github.com/neoclide/coc-git>
 
 You can use `airline#extensions#hunks#get_raw_hunks()` to get the full hunks,
 without shortening. This allows for advanced customization, or a quick way of
@@ -788,27 +784,6 @@ localsearch <https://github.com/mox-mox/localsearch>
 
 * enable/disable localsearch indicator integration >
   let g:airline#extensions#localsearch#enabled = 1
-
--------------------------------------                    *airline-lsp*
-lsp <https://github.com/prabirshrestha/vim-lsp>
-
-* enable/disable lsp integration >
-  let g:airline#extensions#lsp#enabled = 1
-
-* lsp error_symbol >
-  let airline#extensions#lsp#error_symbol = 'E:'
-<
-* lsp warning >
-  let airline#extensions#lsp#warning_symbol = 'W:'
-
-* lsp show_line_numbers >
-  let airline#extensions#lsp#show_line_numbers = 1
-<
-* lsp open_lnum_symbol >
-  let airline#extensions#lsp#open_lnum_symbol = '(L'
-<
-* lsp close_lnum_symbol >
-  let airline#extensions#lsp#close_lnum_symbol = ')'
 
 -------------------------------------                    *airline-neomake*
 neomake <https://github.com/neomake/neomake>
@@ -956,11 +931,6 @@ with the middle mouse button to delete that buffer.
 
 * enable/disable displaying number of tabs in the right side (c) >
   let g:airline#extensions#tabline#show_tab_count = 1
-
-Note: Not displayed if the number of tabs is less than 1
-
-* always displaying number of tabs in the right side (c) >
-  let g:airline#extensions#tabline#show_tab_count = 2
 <
 * configure filename match rules to exclude from the tabline. >
   let g:airline#extensions#tabline#excludes = []
@@ -1396,7 +1366,7 @@ vim-windowswap <https://github.com/wesQ3/vim-windowswap>
   " The default value matches filetypes typically used for documentation
   " such as markdown and help files. Default is:
   let g:airline#extensions#wordcount#filetypes =
-    \ ['asciidoc', 'help', 'mail', 'markdown', 'org', 'plaintex', 'rst', 'tex', 'text'])
+    \ ['asciidoc', 'help', 'mail', 'markdown', 'org', 'rst', 'tex', 'text'])
   " Use ['all'] to enable for all filetypes.
 
 * defines the name of a formatter for word count will be displayed: >
@@ -1530,23 +1500,6 @@ Shows number of errors and warnings in the current file detected by YCM.
 * set warning count prefix >
   let g:airline#extensions#ycm#warning_symbol = 'W:'
 <
-
--------------------------------------                    *airline-zoomwintab*
-zoomwintab <https://github.com/troydm/zoomwintab.vim>
-
-* enable/disable zoomwintab integration >
-  let g:airline#extensions#zoomwintab#enabled = 1
-
-* zoomwintab's zoomin symbol >
-  let g:airline#extensions#zoomwintab#status_zoomed_in = 'Currently Zoomed In'
-
-default: '> Zoomed'
-
-* zoomwintab's zoomout symbol >
-  let g:airline#extensions#zoomwintab#status_zoomed_out ='Currently Zoomed Out'
-
-default: ''
-
 =============================================================================
 ADVANCED CUSTOMIZATION                      *airline-advanced-customization*
 
@@ -1598,10 +1551,10 @@ The following list of parts are predefined by vim-airline.
 And the following are defined for their respective extensions:
 
 `ale_error_count` `ale_warning_count` `branch` `eclim` `hunks`
-`languageclient_error_count` `languageclient_warning_count` `lsp_error_count`
-`lsp_warning_count` `neomake_error_count` `neomake_warning_count` `obsession`
-`syntastic-warn` `syntastic-err` `tagbar` `whitespace` `windowswap`
-`ycm_error_count` `ycm_warning_count`
+`languageclient_error_count` `languageclient_warning_count`
+`neomake_error_count` `neomake_warning_count` `obsession` `syntastic-warn`
+`syntastic-err` `tagbar` `whitespace` `windowswap` `ycm_error_count`
+`ycm_warning_count`
 
 -------------------------------------                      *airline-accents*
 Accents can be defined on any part, like so: >

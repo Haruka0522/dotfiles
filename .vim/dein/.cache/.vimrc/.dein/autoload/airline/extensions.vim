@@ -211,11 +211,7 @@ function! airline#extensions#load()
   endif
 
   if get(g:, 'airline#extensions#hunks#enabled', 1)
-        \ && (exists('g:loaded_signify')
-        \ || exists('g:loaded_gitgutter')
-        \ || exists('g:loaded_changes')
-        \ || exists('g:loaded_quickfixsigns')
-        \ || exists(':CocCommand'))
+        \ && (exists('g:loaded_signify') || exists('g:loaded_gitgutter') || exists('g:loaded_changes') || exists('g:loaded_quickfixsigns'))
     call airline#extensions#hunks#init(s:ext)
     call add(s:loaded_ext, 'hunks')
   endif
@@ -248,11 +244,6 @@ function! airline#extensions#load()
         \ && (get(g:, 'loaded_csv', 0) || exists(':Table'))
     call airline#extensions#csv#init(s:ext)
     call add(s:loaded_ext, 'csv')
-  endif
-
-  if get(g:, 'airline#extensions#zoomwintab#enabled', 0)
-    call airline#extensions#zoomwintab#init(s:ext)
-    call add(s:loaded_ext, 'zoomwintab')
   endif
 
   if exists(':VimShell')
@@ -312,11 +303,6 @@ function! airline#extensions#load()
   if (get(g:, 'airline#extensions#ale#enabled', 1) && exists(':ALELint'))
     call airline#extensions#ale#init(s:ext)
     call add(s:loaded_ext, 'ale')
-  endif
-
-  if (get(g:, 'airline#extensions#lsp#enabled', 1) && exists(':LspDeclaration'))
-    call airline#extensions#lsp#init(s:ext)
-    call add(s:loaded_ext, 'lsp')
   endif
 
   if (get(g:, 'airline#extensions#coc#enabled', 1) && exists(':CocCommand'))
