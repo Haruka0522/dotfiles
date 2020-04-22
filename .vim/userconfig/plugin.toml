@@ -89,3 +89,6 @@ repo = 'Yggdroot/indentLine'
 
 [[plugins]]
 repo = 'tomasr/molokai'
+
+[[plugins]]
+repo = 'severin-lemaignan/vim-minimap'

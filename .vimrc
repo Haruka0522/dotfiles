@@ -107,6 +107,13 @@ highlight EndOfBuffer ctermbg=none
 "クリップボード連携
 set clipboard=unnamedplus
 
+"vim-minimapを自動で実行する
+autocmd VimEnter * Minimap
+
+"Ctrl+rでvim-minimapを非表示
+nnoremap <silent><C-r> :MinimapClose<CR>
+
+
 "autopep8をF7で実行
 function! Preserve(command)
     " Save the last search.
