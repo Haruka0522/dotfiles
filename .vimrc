@@ -108,7 +108,7 @@ highlight EndOfBuffer ctermbg=none
 set clipboard=unnamedplus
 
 "vim-minimapを自動で実行する
-autocmd VimEnter * Minimap
+"autocmd VimEnter * Minimap
 
 "Ctrl+rでvim-minimapを非表示
 nnoremap <silent><C-r> :MinimapClose<CR>
