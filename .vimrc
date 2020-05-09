@@ -113,6 +113,11 @@ set clipboard=unnamedplus
 "Ctrl+rでvim-minimapを非表示
 nnoremap <silent><C-r> :MinimapClose<CR>
 
+"window移動のキーバインド
+map sh <C-w>h
+map sk <C-w>k
+map sj <C-w>j
+map sl <C-w>l
 
 "autopep8をF7で実行
 function! Preserve(command)
