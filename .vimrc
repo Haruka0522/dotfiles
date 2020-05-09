@@ -119,6 +119,10 @@ map sk <C-w>k
 map sj <C-w>j
 map sl <C-w>l
 
+"tab移動のキーバインド
+nmap <S-Tab> :tabprev<Return>
+nmap <Tab> :tabnext<Return>
+
 "autopep8をF7で実行
 function! Preserve(command)
     " Save the last search.
