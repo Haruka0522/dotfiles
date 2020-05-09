@@ -113,6 +113,10 @@ set clipboard=unnamedplus
 "Ctrl+rでvim-minimapを非表示
 nnoremap <silent><C-r> :MinimapClose<CR>
 
+"windowのsplit
+nmap ss :split<Return><C-w>w
+nmap sv :vsplit<Return><C-w>w
+
 "window移動のキーバインド
 map sh <C-w>h
 map sk <C-w>k
