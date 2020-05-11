@@ -98,11 +98,11 @@ set background=dark
 colorscheme molokai
 
 "背景透過
-highlight Normal ctermbg=none
-highlight NonText ctermbg=none
-highlight LineNr ctermbg=none
-highlight Folded ctermbg=none
-highlight EndOfBuffer ctermbg=none 
+highlight Normal ctermbg=none guibg=NONE
+highlight NonText ctermbg=none guibg=NONE
+highlight LineNr ctermbg=none guibg=NONE
+highlight Folded ctermbg=none guibg=NONE
+highlight EndOfBuffer ctermbg=none guibg=NONE
 
 "クリップボード連携
 set clipboard=unnamedplus
