@@ -95,7 +95,7 @@ set cursorline
 
 "カラースキーム
 set background=dark
-colorscheme molokai
+colorscheme lucius
 
 "背景透過
 highlight Normal ctermbg=none guibg=NONE
