@@ -74,3 +74,12 @@ alias mv='mv -i'
 alias cp='cp -i'
 
 alias apt_update='sudo apt update && sudo apt upgrade && sudo apt autoremove && sudo apt dist-upgrade'
+
+#------------------------------------
+#
+#その他
+#
+#------------------------------------
+
+#tmuxの自動起動
+[[ -z "$TMUX" && ! -z "$PS1" ]] && tmux
