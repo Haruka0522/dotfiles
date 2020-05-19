@@ -75,6 +75,8 @@ alias cp='cp -i'
 
 alias apt_update='sudo apt update && sudo apt upgrade && sudo apt autoremove && sudo apt dist-upgrade'
 
+alias pyactivate='source venv/bin/activate'
+
 #------------------------------------
 #
 #その他
