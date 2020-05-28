@@ -47,6 +47,9 @@ eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 export PYENV_VIRTUALENV_DISABLE_PROMPT=1
 
+#flutter
+export PATH="$PATH:$HOME/flutter/bin"
+
 #------------------------------------
 #
 #プロンプト
