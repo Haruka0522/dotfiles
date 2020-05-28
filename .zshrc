@@ -50,6 +50,9 @@ export PYENV_VIRTUALENV_DISABLE_PROMPT=1
 #flutter
 export PATH="$PATH:$HOME/flutter/bin"
 
+#android studio
+export PATH="$PATH:/usr/local/android-studio/bin"
+
 #------------------------------------
 #
 #プロンプト
@@ -79,6 +82,8 @@ alias cp='cp -i'
 alias apt_update='sudo apt update && sudo apt upgrade && sudo apt autoremove && sudo apt dist-upgrade'
 
 alias pyactivate='source venv/bin/activate'
+
+alias studio='studio.sh'
 
 #------------------------------------
 #
