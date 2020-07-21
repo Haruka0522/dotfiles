@@ -5,3 +5,4 @@
 /.vim/dein/repos/github.com/*
 /.vim/dein/.cache/*
 /.vim/cache_vim
+/.vim/dein/*
