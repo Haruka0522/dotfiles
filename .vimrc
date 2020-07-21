@@ -65,6 +65,9 @@ function! s:Run()
   if e == "py"
     :Python
   endif
+  if e == "cpp"
+	:Gpp
+  endif
 endfunction
 
 command! Python call s:Python()
@@ -75,6 +78,12 @@ endfunction
 command! Gcc call s:Gcc()
 function! s:Gcc()
   :!gcc % -o %:r
+  :!./%:r
+endfunction
+
+command! Gpp call s:Gpp()
+function! s:Gpp()
+  :!g++ % -o %:r
   :!./%:r
 endfunction
 
