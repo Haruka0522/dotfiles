@@ -53,6 +53,9 @@ export PATH="$PATH:/usr/local/flutter/bin"
 #android studio
 export PATH="$PATH:/usr/local/android-studio/bin"
 
+#cargo
+export PATH="$PATH:~/.cargo/env"
+
 #------------------------------------
 #
 #プロンプト
