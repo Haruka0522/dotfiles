@@ -56,6 +56,9 @@ export PATH="$PATH:/usr/local/android-studio/bin"
 #cargo
 export PATH="$PATH:~/.cargo/env"
 
+#stack
+export PATH="$PATH:~/.local/bin/stack"
+
 #------------------------------------
 #
 #プロンプト
