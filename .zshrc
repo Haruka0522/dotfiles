@@ -59,6 +59,11 @@ export PATH="$PATH:~/.cargo/env"
 #stack
 export PATH="$PATH:~/.local/bin/stack"
 
+#mac場合のみlsコマンドのパスを通す
+if [ "$(uname)"=='Darwin' ]; then
+	export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+fi
+
 #------------------------------------
 #
 #プロンプト
