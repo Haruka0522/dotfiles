@@ -165,3 +165,6 @@ let g:indentLine_char_list = ['|', '¦', '┆', '┊']
 
 set tabstop=4
 set shiftwidth=4
+
+"backspace
+set backspace=indent,eol,start
