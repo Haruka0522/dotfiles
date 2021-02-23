@@ -97,6 +97,9 @@ alias pyactivate='source venv/bin/activate'
 alias studio='studio.sh'
 
 alias :wq='echo vimじゃないよ'
+alias :w='echo vimじゃないよ'
+alias :q='echo vimじゃないよ'
+
 
 #------------------------------------
 #
