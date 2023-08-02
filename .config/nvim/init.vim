@@ -1,3 +1,6 @@
+"pyenvとvimのパスの自動設定
+let g:python3_host_prog = '~/.pyenv/versions/nvim-python3/bin/python'
+
 "dein Scripts-----------------------------
 if &compatible
   set nocompatible               " Be iMproved
@@ -38,11 +41,6 @@ if dein#check_install()
   call dein#install()
 endif
 "End dein Scripts-------------------------
-
-
-"pyenvとvimのパスの自動設定
-let g:python3_host_prog = '~/.pyenv/versions/nvim-python3/bin/python'
-
 
 "F5キーでPython3とCを実行できるようにする
 command! Run call s:Run()
