@@ -1,6 +1,3 @@
-# Created by newuser for 5.4.2
-
-
 #-----------------------------------
 #
 #補完系
@@ -81,6 +78,7 @@ PROMPT="%F{green}%m@%n:%f%F{green}%~%# %f"
 export SUDO_PROMPT="[sudo] さっさとパスワードを教えなさいよ！"
 
 #pureプロンプトの適用
+fpath+=("$(brew --prefix)/share/zsh/site-functions")
 autoload -U promptinit; promptinit
 prompt pure
 
@@ -105,19 +103,19 @@ alias :wq='echo vimじゃないよ'
 alias :w='echo vimじゃないよ'
 alias :q='echo vimじゃないよ'
 
-# exa
-if [[ $(command -v exa) ]]; then
-  alias e='exa --icons'
-  alias l=e
-  alias ls=e
-  alias ea='exa -a --icons'
+# eza
+if [[ $(command -v eza) ]]; then
+  alias ei="eza --icons --git"
+  alias ea="eza -a --icons --git"
+  alias ee="eza -aahl --icons --git"
+  alias et="eza -T -L 3 -a -I 'node_modules|.git|.cache' --icons"
+  alias eta="eza -T -a -I 'node_modules|.git|.cache' --color=always --icons | less -r"
+  alias ls=ei
   alias la=ea
-  alias ee='exa -aal --icons'
   alias ll=ee
-  alias et='exa -T -L 3 -a -I "node_modules|.git|.cache" --icons'
   alias lt=et
-  alias eta='exa -T -a -I "node_modules|.git|.cache" --color=always --icons | less -r'
   alias lta=eta
+  alias l="clear && ls"
 fi
 
 
@@ -129,3 +127,9 @@ fi
 
 #tmuxの自動起動
 [[ -z "$TMUX" && ! -z "$PS1" ]] && tmux
+
+# Fig pre block. Keep at the top of this file.
+[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.pre.zsh"
+# CodeWhisperer pre block. Keep at the top of this file.
+[[ -f "${HOME}/Library/Application Support/codewhisperer/shell/zshrc.pre.zsh" ]] && builtin source "${HOME}/Library/Application Support/codewhisperer/shell/zshrc.pre.zsh"
+# Created by newuser for 5.4.2
