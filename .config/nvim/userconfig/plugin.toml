@@ -54,3 +54,6 @@ repo = 'severin-lemaignan/vim-minimap'
 
 [[plugins]]
 repo = 'ryanoasis/vim-devicons'
+
+[[plugins]]
+repo = 'github/copilot.vim'
