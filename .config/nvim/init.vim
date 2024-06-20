@@ -65,14 +65,14 @@ endfunction
 
 command! Gcc call s:Gcc()
 function! s:Gcc()
-  :!gcc % -o %:r
-  :!./%:r
+  :!gcc % -o %:r.out
+  :!./%:r.out
 endfunction
 
 command! Gpp call s:Gpp()
 function! s:Gpp()
-  :!g++ % -o %:r
-  :!./%:r
+  :!g++ % -o %:r.out
+  :!./%:r.out
 endfunction
 
 
